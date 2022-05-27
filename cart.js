@@ -59,7 +59,8 @@ function checkOut() {
         instruksi.style.textAlign = 'center'
         instruksi.style.padding = '20px'
         containerStruk.appendChild(instruksi)
-    
+        let buttonCheckout = document.getElementById('buttoncheckout')
+        buttonCheckout.disabled = true
         container.appendChild(containerStruk)
     }else{
         alert("Lengkapi Form Terlebih Dahulu!");
