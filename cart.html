@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecart.css">
+    <title>CART</title>
+</head>
+<body>
+    <div class="BUS">
+        <h1>Shopping Cart</h1>
+        <div class="container">
+            <div class="utama">
+                <div id="sideBar" class="cardData">
+                   
+                </div>
+                <div id="containerForm" class="tampung">
+                    <div class="nama">
+                        Name : <input id="inputName" type="text">
+                    </div>
+                    <div class="alamat"><input id="inputAlamat" class="inputAlamat" type="text" placeholder="Input Your Address"></div>
+                    <div class="pengiriman">
+                        Payment Method
+                        <select name="" id="inputPayment" class="select">
+                            <option value="Indomaret">INDOMARET</option>
+                            <option value="Alfamart">ALFAMART</option>
+                        </select>
+                    </div>
+                    <div class="pengiriman">
+                        Choose Delivery
+                        <select name="" id="inputKurir" class="select1">
+                            <option value="JNE">JNE</option>
+                            <option value="J&T">J&T</option>
+                            <option value="Pos Indonesia">POS INDONESIA</option>
+                        </select>
+                    </div>
+
+                    <button onclick="checkOut()" class="btn">Checkout</button><br>
+                   <button onClick="batalkanPesanan()" class="btn2">Batal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+
+</html>

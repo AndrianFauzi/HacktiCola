@@ -1,0 +1,184 @@
+body {
+    font-family: tulisan_baru;
+    background-color: #F9F7F6;
+}
+
+@font-face {
+    font-family: tulisan_baru;
+    src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.cardData {
+
+    box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.2);
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    /* border-radius: 5%; */
+
+}
+
+.cardDalam {
+
+    /* box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.1); */
+    width: 100px;
+    height: 150px;
+    border-radius: 5%;
+    margin-top: 20px;
+    /* display: flex; */
+
+}
+
+.cardDalam2 {
+
+    /* box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.1); */
+    width: 300px;
+    height: 150px;
+    border-radius: 5%;
+    margin-top: 20px;
+    /* display: flex; */
+
+}
+
+.cardDalam3 {
+    display: flex;
+}
+
+.padding {
+    padding: 0 0 0 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pembungkus {
+    display: flex;
+    /* width: 190px;
+	height: 190px; */
+}
+
+.left {
+    display: flex;
+    /* border-radius: 30px; */
+    height: 20px;
+    margin-top: 14px;
+    width: 30px;
+}
+
+.right {
+    display: flex;
+    /* border-radius: 30px; */
+    height: 20px;
+    margin-top: 14px;
+    width: 30px;
+}
+
+.utama {
+    display: flex;
+    background-color: white;
+}
+
+.alamat {
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.inputAlamat {
+    width: 500px;
+    height: 200px;
+}
+
+.inputPengiriman {
+    width: 500px;
+    height: 200px;
+}
+
+.pengiriman {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.select {
+    width: 377px;
+}
+
+.select1 {
+    width: 377px;
+    margin-left: 7px;
+}
+
+.btn {
+    width: 508px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #C4282E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2 {
+    width: 508px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+    /* background-color: #C4282E; */
+    border-radius: 5px;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.2);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.BUS {
+    width: 100%;
+    height: 100%;
+}
+
+.foto {
+    width: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 100px;
+    margin-left: 85px;
+    width: 400px;
+    /* height: 400px; */
+    box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.2);
+    border-radius: 5px;
+}
+
+.namecard {
+    margin-left: 50px;
+}
+
+.imgcode {
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 100px;
+}
+
+.nama {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#inputName {
+    width: 443px;
+}

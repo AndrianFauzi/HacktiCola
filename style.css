@@ -1,0 +1,280 @@
+body {
+	margin: 0 auto;
+	font-family: tulisan_baru;
+	/* margin: 0 auto; */
+}
+
+@font-face {
+	font-family: tulisan_baru;
+	src: url(Quicksand-VariableFont_wght.ttf);
+}
+
+.penampung {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	width: 1500px;
+	height: 1500px;
+	margin: 0 auto;
+	background-color: #F9F7F6;
+}
+
+.imgheader{
+	width: 30px;
+}
+
+#textheader {
+    color: #C4282E;
+}
+
+.tampungsemua {
+	width: 1500px;
+	height: 1500px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 1500px;
+	height: 81px;
+	display: flex;
+	position: fixed;
+	background-color: white;
+	margin-bottom: 10px;
+	scrollbar-shadow-color: #494949;
+	box-shadow: 1px 3px rgba(0, 0, 0, 0.059);
+}
+
+.harga {
+	color: #4db7fe;
+	width: 200px;
+}
+
+.row1 {
+	/* position: fixed; */
+	width: 1500px;
+	height: 75px;
+	display: flex;
+	/* background-color: white; */
+}
+
+.row2 {
+	width: 1500px;
+	height: 768px;
+}
+
+.logo {
+	display: flex;
+}
+
+.workout {
+	margin-top: 40px;
+	margin-left: 200px;
+}
+
+.logo1 {
+	width: 100px;
+	padding-left: 182px;
+	padding-top: 18px;
+}
+
+.hks {
+	display: flex;
+	margin-left: 0px;
+}
+
+.home {
+	font-size: 13px;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: #666;
+	cursor: pointer;
+}
+
+.home:hover {
+	color: #4db7fe;
+}
+
+.kelas {
+	margin-top: 27px;
+	margin-left: 0px;
+}
+
+.pilihan {
+	font-size: 13px;
+	width: 65px;
+	border: 0px;
+	color: #494949;
+	cursor: pointer;
+	font-family: tulisan_baru;
+}
+
+.pilihan:hover {
+	color: #4db7fe;
+}
+
+.ddd {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}
+
+.ddd:hover {
+	color: #4db7fe;
+}
+
+.btn {
+	margin-top: 18px;
+	margin-left: 45px;
+	background-color: #C4282E;
+	text-decoration: none;
+	border: 0px;
+	width: 131px;
+	height: 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	font-family: tulisan_baru;
+}
+
+
+.gambarutama {
+	background-image: url(gambarutamabaru.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+
+}
+
+.data {
+	margin-top: 200px;
+	width: 1366px;
+}
+
+.sisi1 {
+	width: 100px;
+	height: 250px;
+}
+
+.sisi2 {
+	width: 10px;
+}
+
+.data1 {
+	display: flex;
+	width: 1300px;
+	margin-top: 20px;
+}
+
+.data1:first-child{
+	margin-top: 120px;
+}
+
+.data2 {
+	display: flex;
+	width: 1300px;
+}
+
+.atas2 {
+	width: 1366px;
+	height: 768px;
+	margin-top: 78px;
+}
+
+.btntengah {
+	width: 280px;
+	margin-left: 560px;
+	margin-top: 520px;
+}
+
+.baru {
+	width: 1366px;
+	height: 768px;
+}
+
+.card {
+	margin-top: 120px;
+	box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.2);
+	transition: 0.3s;
+	padding: 20px 10px;
+	padding-right: 30px;
+	background: white;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(12, 12, 12, 0.2);
+	width: 210px;
+	/* height: 610px; */
+}
+
+.tengah {
+	display: flex;
+	display: flexbox;
+}
+
+.carddata {
+	/* margin-top: 30px; */
+	margin-left: 10px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgb(12, 12, 12, 0.2);
+	transition: 0.3s;
+	width: 200px;
+	height: 360px;
+	background: white;
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	border-radius: 5%;
+}
+
+.carddata:hover {
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(12, 12, 12, 0.2);
+	width: 210px;
+	height: 370px;
+}
+
+.search {
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 180px;
+	width: 500px;
+	height: 20px;
+	/* border: #494949; */
+}
+
+.button {
+	width: 100%;
+	padding: 10px;
+	background-color: #C4282E;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-search {
+	border-radius: 5px;
+	margin-top: 29px;
+	width: 30px;
+	height: 27px;
+	background-color: #C4282E;
+	cursor: pointer;
+}
+
+img {
+	margin: 20px 50px;
+}
+
+.checkboxtext {
+    color: #C4282E;
+}
+ 
