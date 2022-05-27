@@ -236,15 +236,17 @@ body {
 .carddata:hover {
 	cursor: pointer;
 	box-shadow: 0 8px 16px 0 rgba(12, 12, 12, 0.2);
-	width: 205px;
+	width: 210px;
+	/* height: 370px; */
 }
 
 .search {
 	border-radius: 5px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-left: 180px;
 	width: 500px;
-	height: 20px;
+	height: 30px;
+	padding-left: 20px;
 	/* border: #494949; */
 }
 
@@ -260,9 +262,9 @@ body {
 
 .btn-search {
 	border-radius: 5px;
-	margin-top: 29px;
+	margin-top: 20px;
 	width: 30px;
-	height: 27px;
+	height: 36px;
 	background-color: #C4282E;
 	cursor: pointer;
 }
